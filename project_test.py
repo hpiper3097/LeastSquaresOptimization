@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from pandas.plotting import autocorrelation_plot, lag_plot
 
+#change to wherever your file is
 fname = './../data/data_filled/FILLED_log_2021_02_27-07_34_43_BB.csv'
 
 df = pd.read_csv(fname)
